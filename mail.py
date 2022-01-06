@@ -6,7 +6,7 @@ from email.mime.image import MIMEImage
 #fromEmail = 'adressemaile@gmail.com' #Adresse mail de l'expéditeur
 fromEmail = '4emeinfo2021@gmail.com' #Adresse mail de l'expéditeur
 #fromEmailPassword = 'mdp' #MDP du compte de l'expéditeur
-fromEmailPassword = 'Info1234' #MDP du compte de l'expéditeur
+fromEmailPassword = '******' #MDP du compte de l'expéditeur
 #toEmail = 'adressemaild@gmail.com' #Adresse mail du destinataire
 toEmail = 'mohamedbougarn@gmail.com' #Adresse mail du destinataire
 
