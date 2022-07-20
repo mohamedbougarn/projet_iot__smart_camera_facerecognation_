@@ -26,23 +26,23 @@ app = Flask(__name__)
 
 
 #background process happening without any refreshing
-@app.route('/left')
-def left():
-    print ("Left")
-    os.system("python servo.py 1 2 0.1 1")       
-    return ("nothing")
+#@app.route('/left')
+#def left():
+#    print ("Left")
+#    os.system("python servo.py 1 2 0.1 1")       
+#    return ("nothing")
 
-@app.route('/center')
-def center():
-    print ("Center")
-    os.system("python servo.py 89 90 0.3 1")       
-    return ("nothing")
+#@app.route('/center')
+#def center():
+#    print ("Center")
+#    os.system("python servo.py 89 90 0.3 1")       
+#    return ("nothing")
 
-@app.route('/right')
-def right():
-    print ("Right")
-    os.system("python servo.py 179 180 0.1 1")       
-    return ("nothing")
+#@app.route('/right')
+#def right():
+#    print ("Right")
+#    os.system("python servo.py 179 180 0.1 1")       
+#    return ("nothing")
 
 
 @app.route('/', methods=['GET', 'POST'])
